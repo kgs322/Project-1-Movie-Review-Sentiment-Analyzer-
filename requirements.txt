@@ -1,0 +1,24 @@
+# baseline dependencies
+pandas
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# transformer-based option
+transformers
+datasets
+torch
+
+# explainability
+lime
+shap
+
+# testing & linting
+pytest
+black
+
+# optional monitoring
+prometheus-client
+sentry-sdk
